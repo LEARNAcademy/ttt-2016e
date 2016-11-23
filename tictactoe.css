@@ -1,0 +1,21 @@
+table {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: black;
+}
+
+td {
+  border: 1px solid black;
+  font-size: 24px;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+#startGame {
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-size: 18px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- link to JQuery -->
+    <script src="jquery-3.1.1.min.js"></script>
+  <!-- link to local javascript model file -->
+    <script src="model.js"></script>
+<!-- link to local javascript controller file -->
+    <script src="controller.js"></script>
+<!-- link to local css file -->
+    <link type="text/css" rel="stylesheet" href="tictactoe.css" />
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+<!-- title -->
+    <h1>Tic Tac Toe Game</h1>
+<!-- show whose turn it is (X or O) -->
+    <p id="turn">...</p>
+<!-- table where tic-tac-toe is built! -->
+    <table>
+      <tr>
+        <td id="0"></td>
+        <td id="1"></td>
+        <td id="2"></td>
+      </tr>
+      <tr>
+        <td id="3"></td>
+        <td id="4"></td>
+        <td id="5"></td>
+      </tr>
+      <tr>
+        <td id="6"></td>
+        <td id="7"></td>
+        <td id="8"></td>
+      </tr>
+    </table>
+<!-- display the result of the game -->
+    <p id="result">...</p>
+<!-- button to restart the game (clear all values) -->
+    <input type="button" value="New Game" id="startGame" />
+  </body>
+</html>
